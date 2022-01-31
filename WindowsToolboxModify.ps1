@@ -17,7 +17,7 @@ Write-Host "
  -------------------------------------------------------------
 
 " -ForegroundColor green
-Write-Host "Initializing Window ToolBox Modify..." -ForegroundColor green
+Write-Host "Initializing Window Modify..." -ForegroundColor green
 
 Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.Application]::EnableVisualStyles()
