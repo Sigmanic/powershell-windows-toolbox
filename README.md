@@ -8,8 +8,9 @@ Simple and Easy to use Powershell Application(Graphical interface) to debloat wi
 
 # Open Source (Compatible with windows 10 and 11)
 
-View the Original Windows Toolbox Source Code here : ```https://ps.microsoft-toolbox.workers.dev```
-Current Windows Toolbox Modificaiton: ```https://raw.githubusercontent.com/Sigmanic/powershell-windows-toolbox/main/Windows%20Toolbox%20Modify.ps1```
+View the Original Windows Toolbox Source Code here : ```https://ps.microsoft-toolbox.workers.dev``` <br />
+Current Windows Toolbox Modificaiton : <br />
+```https://raw.githubusercontent.com/Sigmanic/powershell-windows-toolbox/main/WindowsToolboxModify.ps1```
 
 # Features    
 
