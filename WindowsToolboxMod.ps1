@@ -17,7 +17,7 @@ Write-Host "
  -------------------------------------------------------------
 
 " -ForegroundColor green
-Write-Host "Initializing Window Modify..." -ForegroundColor green
+Write-Host "Initializing Window Modify 1..." -ForegroundColor green
 
 Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.Application]::EnableVisualStyles()
@@ -2332,9 +2332,9 @@ Exit
 
 
 
-If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]'Administrator')) {
+<#If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]'Administrator')) {
     $runasbox = {$i=(New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Sigmanic/powershell-windows-toolbox/main/WindowsToolboxMod.ps1');iex($i)}
     Start-Process powershell $runasbox.ToString() -Verb RunAs 
     Exit
 }
-iex ($ScriptBlock.ToString())
+iex ($ScriptBlock.ToString())#>
