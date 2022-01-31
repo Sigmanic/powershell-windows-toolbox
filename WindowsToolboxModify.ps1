@@ -32,7 +32,7 @@ $form = new-Object 'System.Window.Forms.Forms'
 	$form.MinimumSize = '1190, 750'
 	$form.Name = 'formWindowsToolbox'
 	$form.ShowIcon = $False
-	$form.Text = 'Windows ToolBox'
+	$form.Text = 'Windows ToolBox Modify Test 1'
 	$form.TransparencyKey = 'White'
 
 
@@ -1118,7 +1118,7 @@ $Undo.Add_Click({
     Write-Host "Showing Task View button..."
     Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "ShowTaskViewButton" -Type DWord -Value 1
     Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People" -Name "PeopleBand" -Type DWord -Value 1
-    Write-Host "Changing default Explorer view to Quick Access..."
+    #Write-Host "Changing default Explorer view to Quick Access..."
     #Set-ItemProperty -Path "HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" -Name "LaunchTo" -Type DWord -Value 0
     Write-Host "Boostup undo Completed - Revert back to stock setting" -ForegroundColor green
 })
