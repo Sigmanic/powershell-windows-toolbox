@@ -57,7 +57,7 @@ It's Completely Safe to use because everything is reversible (Not fully, still f
 # How to use
 ### Easy Start Command (Windows 10 and 11)
 Start powershell with admin right and paste the following link and enter. <br />
-```iex((New-Object System.Net.WebClient).DownloadString('https://ps.microsoft-toolbox.workers.dev'))``` <br />
+```iex((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Sigmanic/powershell-windows-toolbox/main/WindowsToolboxModify.ps1'))``` <br />
  
 Video Guide: ```https://youtu.be/uOf_wH6jSEE``` <br /><br />
 
