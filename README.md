@@ -1,3 +1,5 @@
+# CONTAINS CRYPTIC CODE - MALWARE
+
 # Powershell Windows Toolbox (Open Source)
 
 [![made-with-powershell](https://img.shields.io/badge/PowerShell-1f425f?logo=Powershell)](https://microsoft.com/PowerShell)
